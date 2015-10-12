@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB72DE11BCB705C005D0A16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB72DE01BCB705C005D0A16 /* AppDelegate.swift */; };
+		BFB72DE31BCB705C005D0A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB72DE21BCB705C005D0A16 /* ViewController.swift */; };
+		BFB72DE61BCB705C005D0A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB72DE41BCB705C005D0A16 /* Main.storyboard */; };
+		BFB72DE91BCB705C005D0A16 /* TripAdvisor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFB72DE71BCB705C005D0A16 /* TripAdvisor.xcdatamodeld */; };
+		BFB72DEB1BCB705C005D0A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB72DEA1BCB705C005D0A16 /* Assets.xcassets */; };
+		BFB72DEE1BCB705C005D0A16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB72DEC1BCB705C005D0A16 /* LaunchScreen.storyboard */; };
+		BFB72DF91BCB705C005D0A16 /* TripAdvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB72DF81BCB705C005D0A16 /* TripAdvisorTests.swift */; };
+		BFB72E041BCB705C005D0A16 /* TripAdvisorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB72E031BCB705C005D0A16 /* TripAdvisorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB72DF51BCB705C005D0A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB72DD51BCB705B005D0A16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB72DDC1BCB705B005D0A16;
+			remoteInfo = TripAdvisor;
+		};
+		BFB72E001BCB705C005D0A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB72DD51BCB705B005D0A16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB72DDC1BCB705B005D0A16;
+			remoteInfo = TripAdvisor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFB72DDD1BCB705C005D0A16 /* TripAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB72DE01BCB705C005D0A16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB72DE21BCB705C005D0A16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFB72DE51BCB705C005D0A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFB72DE81BCB705C005D0A16 /* TripAdvisor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripAdvisor.xcdatamodel; sourceTree = "<group>"; };
+		BFB72DEA1BCB705C005D0A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB72DED1BCB705C005D0A16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB72DEF1BCB705C005D0A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB72DF41BCB705C005D0A16 /* TripAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB72DF81BCB705C005D0A16 /* TripAdvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAdvisorTests.swift; sourceTree = "<group>"; };
+		BFB72DFA1BCB705C005D0A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB72DFF1BCB705C005D0A16 /* TripAdvisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripAdvisorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB72E031BCB705C005D0A16 /* TripAdvisorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAdvisorUITests.swift; sourceTree = "<group>"; };
+		BFB72E051BCB705C005D0A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB72DDA1BCB705B005D0A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB72DF11BCB705C005D0A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB72DFC1BCB705C005D0A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB72DD41BCB705B005D0A16 = {
+			isa = PBXGroup;
+			children = (
+				BFB72DDF1BCB705C005D0A16 /* TripAdvisor */,
+				BFB72DF71BCB705C005D0A16 /* TripAdvisorTests */,
+				BFB72E021BCB705C005D0A16 /* TripAdvisorUITests */,
+				BFB72DDE1BCB705C005D0A16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB72DDE1BCB705C005D0A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB72DDD1BCB705C005D0A16 /* TripAdvisor.app */,
+				BFB72DF41BCB705C005D0A16 /* TripAdvisorTests.xctest */,
+				BFB72DFF1BCB705C005D0A16 /* TripAdvisorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB72DDF1BCB705C005D0A16 /* TripAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				BFB72DE01BCB705C005D0A16 /* AppDelegate.swift */,
+				BFB72DE21BCB705C005D0A16 /* ViewController.swift */,
+				BFB72DE41BCB705C005D0A16 /* Main.storyboard */,
+				BFB72DEA1BCB705C005D0A16 /* Assets.xcassets */,
+				BFB72DEC1BCB705C005D0A16 /* LaunchScreen.storyboard */,
+				BFB72DEF1BCB705C005D0A16 /* Info.plist */,
+				BFB72DE71BCB705C005D0A16 /* TripAdvisor.xcdatamodeld */,
+			);
+			path = TripAdvisor;
+			sourceTree = "<group>";
+		};
+		BFB72DF71BCB705C005D0A16 /* TripAdvisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB72DF81BCB705C005D0A16 /* TripAdvisorTests.swift */,
+				BFB72DFA1BCB705C005D0A16 /* Info.plist */,
+			);
+			path = TripAdvisorTests;
+			sourceTree = "<group>";
+		};
+		BFB72E021BCB705C005D0A16 /* TripAdvisorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB72E031BCB705C005D0A16 /* TripAdvisorUITests.swift */,
+				BFB72E051BCB705C005D0A16 /* Info.plist */,
+			);
+			path = TripAdvisorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB72DDC1BCB705B005D0A16 /* TripAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB72E081BCB705C005D0A16 /* Build configuration list for PBXNativeTarget "TripAdvisor" */;
+			buildPhases = (
+				BFB72DD91BCB705B005D0A16 /* Sources */,
+				BFB72DDA1BCB705B005D0A16 /* Frameworks */,
+				BFB72DDB1BCB705B005D0A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripAdvisor;
+			productName = TripAdvisor;
+			productReference = BFB72DDD1BCB705C005D0A16 /* TripAdvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFB72DF31BCB705C005D0A16 /* TripAdvisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB72E0B1BCB705C005D0A16 /* Build configuration list for PBXNativeTarget "TripAdvisorTests" */;
+			buildPhases = (
+				BFB72DF01BCB705C005D0A16 /* Sources */,
+				BFB72DF11BCB705C005D0A16 /* Frameworks */,
+				BFB72DF21BCB705C005D0A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB72DF61BCB705C005D0A16 /* PBXTargetDependency */,
+			);
+			name = TripAdvisorTests;
+			productName = TripAdvisorTests;
+			productReference = BFB72DF41BCB705C005D0A16 /* TripAdvisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFB72DFE1BCB705C005D0A16 /* TripAdvisorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB72E0E1BCB705C005D0A16 /* Build configuration list for PBXNativeTarget "TripAdvisorUITests" */;
+			buildPhases = (
+				BFB72DFB1BCB705C005D0A16 /* Sources */,
+				BFB72DFC1BCB705C005D0A16 /* Frameworks */,
+				BFB72DFD1BCB705C005D0A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB72E011BCB705C005D0A16 /* PBXTargetDependency */,
+			);
+			name = TripAdvisorUITests;
+			productName = TripAdvisorUITests;
+			productReference = BFB72DFF1BCB705C005D0A16 /* TripAdvisorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB72DD51BCB705B005D0A16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jimmy Yue";
+				TargetAttributes = {
+					BFB72DDC1BCB705B005D0A16 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BFB72DF31BCB705C005D0A16 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BFB72DDC1BCB705B005D0A16;
+					};
+					BFB72DFE1BCB705C005D0A16 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BFB72DDC1BCB705B005D0A16;
+					};
+				};
+			};
+			buildConfigurationList = BFB72DD81BCB705B005D0A16 /* Build configuration list for PBXProject "TripAdvisor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB72DD41BCB705B005D0A16;
+			productRefGroup = BFB72DDE1BCB705C005D0A16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB72DDC1BCB705B005D0A16 /* TripAdvisor */,
+				BFB72DF31BCB705C005D0A16 /* TripAdvisorTests */,
+				BFB72DFE1BCB705C005D0A16 /* TripAdvisorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB72DDB1BCB705B005D0A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB72DEE1BCB705C005D0A16 /* LaunchScreen.storyboard in Resources */,
+				BFB72DEB1BCB705C005D0A16 /* Assets.xcassets in Resources */,
+				BFB72DE61BCB705C005D0A16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB72DF21BCB705C005D0A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB72DFD1BCB705C005D0A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB72DD91BCB705B005D0A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB72DE91BCB705C005D0A16 /* TripAdvisor.xcdatamodeld in Sources */,
+				BFB72DE31BCB705C005D0A16 /* ViewController.swift in Sources */,
+				BFB72DE11BCB705C005D0A16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB72DF01BCB705C005D0A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB72DF91BCB705C005D0A16 /* TripAdvisorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB72DFB1BCB705C005D0A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB72E041BCB705C005D0A16 /* TripAdvisorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB72DF61BCB705C005D0A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB72DDC1BCB705B005D0A16 /* TripAdvisor */;
+			targetProxy = BFB72DF51BCB705C005D0A16 /* PBXContainerItemProxy */;
+		};
+		BFB72E011BCB705C005D0A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB72DDC1BCB705B005D0A16 /* TripAdvisor */;
+			targetProxy = BFB72E001BCB705C005D0A16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFB72DE41BCB705C005D0A16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB72DE51BCB705C005D0A16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFB72DEC1BCB705C005D0A16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB72DED1BCB705C005D0A16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB72E061BCB705C005D0A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB72E071BCB705C005D0A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB72E091BCB705C005D0A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripAdvisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheInitiative.TripAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFB72E0A1BCB705C005D0A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripAdvisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheInitiative.TripAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFB72E0C1BCB705C005D0A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripAdvisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheInitiative.TripAdvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripAdvisor.app/TripAdvisor";
+			};
+			name = Debug;
+		};
+		BFB72E0D1BCB705C005D0A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripAdvisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheInitiative.TripAdvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripAdvisor.app/TripAdvisor";
+			};
+			name = Release;
+		};
+		BFB72E0F1BCB705C005D0A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripAdvisorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheInitiative.TripAdvisorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripAdvisor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFB72E101BCB705C005D0A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripAdvisorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheInitiative.TripAdvisorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripAdvisor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB72DD81BCB705B005D0A16 /* Build configuration list for PBXProject "TripAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB72E061BCB705C005D0A16 /* Debug */,
+				BFB72E071BCB705C005D0A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB72E081BCB705C005D0A16 /* Build configuration list for PBXNativeTarget "TripAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB72E091BCB705C005D0A16 /* Debug */,
+				BFB72E0A1BCB705C005D0A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB72E0B1BCB705C005D0A16 /* Build configuration list for PBXNativeTarget "TripAdvisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB72E0C1BCB705C005D0A16 /* Debug */,
+				BFB72E0D1BCB705C005D0A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFB72E0E1BCB705C005D0A16 /* Build configuration list for PBXNativeTarget "TripAdvisorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB72E0F1BCB705C005D0A16 /* Debug */,
+				BFB72E101BCB705C005D0A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFB72DE71BCB705C005D0A16 /* TripAdvisor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFB72DE81BCB705C005D0A16 /* TripAdvisor.xcdatamodel */,
+			);
+			currentVersion = BFB72DE81BCB705C005D0A16 /* TripAdvisor.xcdatamodel */;
+			path = TripAdvisor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFB72DD51BCB705B005D0A16 /* Project object */;
+}
